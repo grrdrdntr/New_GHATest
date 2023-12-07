@@ -48,8 +48,8 @@ jobs:
         env:
           FOD_URL: https://ams.fortify.com
           FOD_TENANT: ${{secrets.FOD_TENANT}}
-          FOD_USER: ${{secrets.FOD_USER}}
-          FOD_PASSWORD: ${{secrets.FOD_PAT}}
+          FOD_APIKEY: ${{secrets.FOD_APIKEY}}
+          FOD_SECRET: ${{secrets.FOD_SECRET}}
           FOD_RELEASE: ${{ secrets.FOD_RELEASE_ID }}
           EXTRA_PACKAGE_OPTS: -oss
           DO_EXPORT: true
