@@ -51,5 +51,5 @@ jobs:
           FOD_USER: ${{secrets.FOD_USER}}
           FOD_PASSWORD: ${{secrets.FOD_PAT}}
           FOD_RELEASE_ID: ${{ secrets.FOD_RELEASE_ID }}
-          EXTRA_PACKAGE_OPTS: "-ep 2 -pp 2 -I 1 -apf"
+          EXTRA_PACKAGE_OPTS: -oss
           DO_EXPORT: true
